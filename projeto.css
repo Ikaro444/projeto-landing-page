@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 56px;
+    margin-top: 52px;
+}
+
+#menu-superior{
+    margin-left: 172px;
+    margin-top: 85px;
+}
+
+#texto-superior{
+    margin-left: 172px;
+    margin-top: 32px ;
+    padding-bottom: 100px;
+}
+#menu-sup{
+    background-image: url(img/fundo-superior.svg);
+    color: aliceblue;
+    background-size: cover;  
+}
+#menu-inf{
+    background-color:  #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin: 50px 0px 50px 50px;
+    padding: 25px;
+}
+#secvideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+.textinf{
+    display: flex;
+    align-items: center;
+    margin-right: 220px;
+}
+#titulovid{
+    color: #247BA0 ;
+    margin-top: 50px;
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titcarrossel{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+#div-cards{
+    display:grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#seta-esq{
+    display: none;
+}
+#bruna{
+    display: none;
+}
+.seta{
+    padding: 80px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+#formulario{
+    text-align: center;
+}
+#form-tit{
+    font-size: 25px;
+    margin:25px;
+    color: #383838;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    border-radius: 5px;
+    border: 0;
+    margin: 15px;
+    padding-left: 10px ;
+}
+button{
+    background-color: #247BA0;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3593bb;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px 0px #144f6898;
+    transition-duration: 0.5s;
+}
